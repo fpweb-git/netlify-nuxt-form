@@ -3,7 +3,7 @@
     <form name="contact" method="POST" data-netlify="true" action="/success" netlify-honeypot="bot-field">
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="contact">
-      <input type="hidden" name="Objet" value="Vous avez reçu un nouveau message"/>
+      <input type="hidden" name="subject" value="Vous avez reçu un nouveau messag" />
       <p>
         <label>Your Name: <input type="text" name="name" required/></label>
       </p>
