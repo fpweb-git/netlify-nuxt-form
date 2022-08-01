@@ -4,18 +4,25 @@
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="contact">
       <input type="hidden" name="subject" value="Vous avez reçu un nouveau message" />
-      <p>
-        <label>Your Name: <input type="text" name="name" required/></label>
-      </p>
-      <p>
-        <label>Your Email: <input type="email" name="email" required/></label>
-      </p>
-      <p>
-        <label>Message: <textarea name="message" required></textarea></label>
-      </p>
-      <p>
+      <div>
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" required/>
+      </div>
+      <div>
+        <label for="email">Your Email:</label>
+        <input type="email" name="email" required/>
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea name="message" required></textarea>
+      </div>
+      <div>
+        <label for="Accepté">J'accepte</label>
+        <input type="checkbox" name="Accepté" required/>
+      </div>
+      <div>
         <button type="submit">Send</button>
-      </p>
+      </div>
     </form>
   </main>
 </template>
