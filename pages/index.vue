@@ -1,6 +1,11 @@
 <template>
   <main>
-    <form name="contact" method="POST" data-netlify="true" action="/success" data-netlify-recaptcha="true">
+    <form name="form-name" value="contact" method="POST" data-netlify="true" action="/success" netlify-honeypot="bot-field">
+      <p class="hidden">
+        <label>
+          Don’t fill this out if you’re human: <input name="bot-field" />
+        </label>
+      </p>
       <input type="hidden" name="form-name" value="contact">
       <p>
         <label>Your Name: <input type="text" name="name" /></label>
