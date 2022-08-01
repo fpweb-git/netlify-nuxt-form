@@ -1,6 +1,6 @@
 <template>
   <main>
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true" action="/success">
       <input type="hidden" name="form-name" value="contact">
       <p>
         <label>Your Name: <input type="text" name="name" /></label>
